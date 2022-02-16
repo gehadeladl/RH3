@@ -1,0 +1,47 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+    border-radius: 5px;
+    overflow: hidden;
+}
+ul li > span{
+    color: #008fd5;
+    font-size: 25px;
+    border: 2px solid #008fd5ad;
+    padding: 10px 13px !important;
+}
+ul li button{
+    outline: none;
+    padding: 7px;
+    padding-bottom: 11px;
+    background-color: #008fd5;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+}
+ul li button.edit{
+    background-color: #008fd5ad;
+}
+form input {
+    color: #008fd5;
+    font-size: 28px;
+}
+@media(max-width:912px){
+    ul li > span{
+        padding: 34px 15px !important;
+    }
+}
+@media(max-width:750px){
+    /* ul li button span {
+        display: none;
+    } */
+    ul li > span{
+        padding: 10px 15px !important;
+    }
+}
